@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "你好，Jenkins！";
+        return "你好，Jenkins！CI的优势在于自动化打包、构建和部署项目！";
     }
 
 }
